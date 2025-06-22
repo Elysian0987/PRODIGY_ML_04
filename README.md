@@ -12,14 +12,16 @@ The solution leverages a Convolutional Neural Network (CNN) trained on the LeapG
 - **Dataset**: LeapGestRecog dataset from Kaggle  
 - **Architecture**: Multi-layered CNN with feature extraction and classification blocks  
 - **Framework**: PyTorch  
-- **Accuracy**: Achieved 98.83% test accuracy  
+- **Accuracy**: Achieved 98.83% test accuracy
+- **Notebook**: Entire implementation is contained in `prodigy_T4.ipynb`
 
 ## Key Features
 
-- Preprocessing of image data using PyTorch's `DataLoader` and `transforms`
-- CNN architecture designed and tuned for image classification tasks
-- Model training, validation, and evaluation pipeline
-- Visualization of training metrics and evaluation results
+- Image preprocessing with PyTorch `transforms`
+- Dataset loading with custom `DataLoader`
+- CNN model definition, training, and evaluation
+- Training and validation accuracy tracking
+- Performance evaluation on test data
 
 ## Technologies Used
 
@@ -56,29 +58,27 @@ The high accuracy indicates effective feature learning and generalization by the
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/gesture-recognition-cnn.git
-   cd gesture-recognition-cnn
+   git clone https://github.com/Elysian0987/PRODIGY_ML_04.git
+   cd PRODIGY_ML_04
    ```
 
-2. Install dependencies:
+2. Install required packages:
 
    ```bash
-   pip install -r requirements.txt
+   pip install torch torchvision matplotlib numpy
    ```
 
-3. Run training:
+3. Open the notebook:
 
    ```bash
-   python train.py
+   jupyter notebook prodigy_T4.ipynb
    ```
 
-4. Evaluate the model:
+4. Run all cells sequentially to train and evaluate the model.
 
-   ```bash
-   python evaluate.py
-   ```
-
-*(Modify file names based on your actual code files.)*
+## Results
+* Final Test Accuracy: 98.83%
+* Model demonstrates high generalization performance on unseen hand gesture data.
 
 ## Learning Outcomes
 
