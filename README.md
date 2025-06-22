@@ -1,4 +1,4 @@
-````markdown
+
 #  PRODIGY_ML_04: Hand Gesture Recognition using CNN
 
 ## Project Overview
