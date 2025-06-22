@@ -53,6 +53,7 @@ The CNN architecture includes:
 | Test Accuracy| 98.83%    |
 
 The high accuracy indicates effective feature learning and generalization by the model.
+The model demonstrates high generalization on unseen data and strong classification performance across gesture classes.
 
 ## How to Run
 
@@ -75,10 +76,6 @@ The high accuracy indicates effective feature learning and generalization by the
    ```
 
 4. Run all cells sequentially to train and evaluate the model.
-
-## Results
-* Final Test Accuracy: 98.83%
-* Model demonstrates high generalization performance on unseen hand gesture data.
 
 ## Learning Outcomes
 
